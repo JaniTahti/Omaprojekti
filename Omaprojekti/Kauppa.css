@@ -1,0 +1,81 @@
+body{
+    background-image: url("Kauppa.png");  
+}
+
+text2
+{
+    position: relative;
+    right: 840px;
+    bottom: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#Paikka{
+    position: relative;
+    left: 780px;
+    top: -350px;
+    font-family: cursive;
+    color: white;
+}
+
+
+.Laatikko{
+    position: relative;
+    width: 400px;
+    height: 700px;
+    background-color: black;
+    left: 730px;
+    top: 300px;
+    opacity: 80%;
+    border-radius: 50px;
+   
+}
+
+#Kategoria{
+    position: relative;
+    left: 810px;
+    top: 200px;
+    background-color: rgb(47, 65, 97);
+    border: 0px;
+    height: 20px;
+    background: #2f3640;
+    color: #f5f6fa;
+    opacity: 100;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 1px;
+  
+
+}
+
+#Lista2{
+    
+    position: relative;
+    left: 850px;
+    top: 200PX;
+    background-color: rgb(47, 65, 97);
+    border: 0px;
+    border-radius: 50px;
+    width: 100px;
+    height: 20px;
+    background: #2f3640;
+    color: #f5f6fa;
+    opacity: 100;
+    transition: all 0.4s;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 1px;
+   
+}
+
+
+h1{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    left: 850PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

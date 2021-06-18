@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="Kauppa.css">
+<title>Kauppa</title>
+</head>
+   
+<script src="Kauppa.js"></script>
+<body>
+<text>
+    <h1>Ruokalista</h1>
+</text>
+<text2>
+    <h1>Tuplaklikkaa poistaaksesi listasta asiopita</h1>
+</text2>  
+<select id ="Kategoria" name="Kategoria" onmousedown="this.value='';" onchange="Vaiha(this.value);">
+    <option value="Val">Valitse</option>
+    <option value="Pesuaine">Pesuaineet</option>
+    <option value="Maito">Maito tuotteet</option>
+    <option value="Leipä">Vehnä tuotteet</option>
+    <option value="Kala">Kala tuotteet</option>
+    <option value="Liha">Liha tuotteet</option>
+    <option value="Elektoriikka">Elektroniikka</option>
+</select>
+
+<select id ="Lista2" name="Lista2" onmousedown="this.value='';" onchange="Vaiha2(this.value);">
+    <option value="unkown">----</option>
+</select>
+
+<div class="Laatikko"> </div>
+<div id="Paikka"></div>
+</body>
+</html>
